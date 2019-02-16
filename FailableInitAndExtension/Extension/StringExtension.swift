@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  StringExtension.swift
 //  FailableInitAndExtension
 //
 //  Created by MacStudent on 2019-02-15.
@@ -7,6 +7,3 @@
 //
 
 import Foundation
-
-print("Hello, World!")
-

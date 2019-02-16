@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9B518AAB221783C100D48C14 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B518AAA221783C100D48C14 /* main.swift */; };
+		9B518AB2221783FE00D48C14 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B518AB1221783FE00D48C14 /* Student.swift */; };
+		9B518AB522178B4600D48C14 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B518AB422178B4600D48C14 /* StringExtension.swift */; };
+		9B518AB82217921000D48C14 /* SubscriptExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B518AB72217921000D48C14 /* SubscriptExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		9B518AA7221783C100D48C14 /* FailableInitAndExtension */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FailableInitAndExtension; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B518AAA221783C100D48C14 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9B518AB1221783FE00D48C14 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		9B518AB422178B4600D48C14 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		9B518AB72217921000D48C14 /* SubscriptExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,7 @@
 		9B518A9E221783C100D48C14 = {
 			isa = PBXGroup;
 			children = (
+				9B518AB6221791E400D48C14 /* Subscript */,
 				9B518AA9221783C100D48C14 /* FailableInitAndExtension */,
 				9B518AA8221783C100D48C14 /* Products */,
 			);
@@ -57,9 +64,27 @@
 		9B518AA9221783C100D48C14 /* FailableInitAndExtension */ = {
 			isa = PBXGroup;
 			children = (
-				9B518AAA221783C100D48C14 /* main.swift */,
+				9B518AB1221783FE00D48C14 /* Student.swift */,
+				9B518AB322178B2900D48C14 /* Extension */,
 			);
 			path = FailableInitAndExtension;
+			sourceTree = "<group>";
+		};
+		9B518AB322178B2900D48C14 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9B518AB422178B4600D48C14 /* StringExtension.swift */,
+				9B518AAA221783C100D48C14 /* main.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9B518AB6221791E400D48C14 /* Subscript */ = {
+			isa = PBXGroup;
+			children = (
+				9B518AB72217921000D48C14 /* SubscriptExample.swift */,
+			);
+			path = Subscript;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B518AB82217921000D48C14 /* SubscriptExample.swift in Sources */,
 				9B518AAB221783C100D48C14 /* main.swift in Sources */,
+				9B518AB2221783FE00D48C14 /* Student.swift in Sources */,
+				9B518AB522178B4600D48C14 /* StringExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
